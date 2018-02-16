@@ -21,3 +21,6 @@ pip install beautifulsoup4
 
 # How to setup the environment 
 https://www.digitalocean.com/community/tutorials/how-to-install-python-3-and-set-up-a-local-programming-environment-on-ubuntu-16-04
+
+# MySql Connection 
+pip install mysql-connector-python
