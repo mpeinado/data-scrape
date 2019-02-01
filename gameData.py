@@ -30,7 +30,7 @@ basketballSchools = [
         'school': 'Denver East',
         'url':'http://www.maxpreps.com/high-schools/denver-east-angels-(denver,co)/basketball/schedule.htm'
     },
-    {
+    {"INSERT INTO `sports`.`bball_teams` (`teamid`, `team_name`) VALUES (1, 'Denver East')"
         'school': 'Broomfield',
         'url':'http://www.maxpreps.com/high-schools/broomfield-eagles-(broomfield,co)/basketball/schedule.htm'
     },

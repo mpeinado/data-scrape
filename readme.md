@@ -41,3 +41,5 @@ python3 ./gameData.py
 
 I ran the script from VC
 deactivate
+# MySql Connection 
+pip install mysql-connector-python
