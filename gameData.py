@@ -1,7 +1,28 @@
+#!/usr/bin/python3
+
 # Request module to collect a web page
 import requests
 from bs4 import BeautifulSoup
 import csv
+
+#import BasketballSchool
+from BasketballSchool import BasketballSchool
+east = BasketballSchool('Denver East', 'http://www.maxpreps.com/high-schools/denver-east-angels-(denver,co)/basketball/schedule.htm')
+broomfield = BasketballSchool('Broomfield', 'http://www.maxpreps.com/high-schools/broomfield-eagles-(broomfield,co)/basketball/schedule.htm')
+holyFamily = BasketballSchool('Holy Family', 'http://www.maxpreps.com/high-schools/holy-family-tigers-(broomfield,co)/basketball/schedule.htm')
+georgeWashington = BasketballSchool('George Washington', 'http://www.maxpreps.com/high-schools/george-washington-patriots-(denver,co)/basketball/schedule.htm')
+lchs = BasketballSchool('Lake County', 'http://www.maxpreps.com/high-schools/lake-county-panthers-(leadville,co)/basketball/schedule.htm')
+smokeyHill = BasketballSchool('Smoky Hill', 'http://www.maxpreps.com/high-schools/smoky-hill-buffaloes-(aurora,co)/basketball/schedule.htm')
+grandview = BasketballSchool('Grandview', 'http://www.maxpreps.com/high-schools/grandview-wolves-(aurora,co)/basketball/schedule.htm')
+
+schools = []
+schools.append(east)
+schools.append(broomfield)
+schools.append(holyFamily)
+schools.append(georgeWashington)
+schools.append(lchs)
+schools.append(smokeyHill)
+schools.append(grandview)
 
 # url of page we will scrape
 basketballSchools = [
@@ -22,12 +43,16 @@ basketballSchools = [
         'url':'http://www.maxpreps.com/high-schools/george-washington-patriots-(denver,co)/basketball/schedule.htm'
     },
     {
-        'school': 'Rock Canyon',
-        'url':'http://www.maxpreps.com/high-schools/rock-canyon-jaguars-(highlands-ranch,co)/basketball/schedule.htm'
+        'school': 'Lake County',
+        'url':'http://www.maxpreps.com/high-schools/lake-county-panthers-(leadville,co)/basketball/schedule.htm'
     },
     {
         'school': 'Smoky Hill',
         'url':'http://www.maxpreps.com/high-schools/smoky-hill-buffaloes-(aurora,co)/basketball/schedule.htm'
+    },
+    {
+        'school': 'Grandview',
+        'url': 'http://www.maxpreps.com/high-schools/grandview-wolves-(aurora,co)/basketball/schedule.htm'
     }
 ]
 
@@ -68,12 +93,13 @@ def extractGameData(game):
     f.writerow([gameDate, gameTime, opponent, location, score])
     ##print("\n")
    
-for school in basketballSchools : 
-    f.writerow([school['school']])
+for school in schools : 
+    f.writerow([school.getSchoolName()])
     f.writerow(['date', 'time', 'oponent', 'location', 'score'])
 
     # asssign the result of a request 
-    page = requests.get(school['url'])
+    page = requests.get(school.getSchoolUrl())
+    print('### --- ' + school.getSchoolName() + ' --- ###')
     print(page.status_code)
 
     # Create a BeautifulSoup object, or parse tree
