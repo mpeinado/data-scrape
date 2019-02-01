@@ -11,19 +11,19 @@ date,time,oponent,location,score
 12/21,1:20p,Desert Oasis ,Game Details: Tarkanian Classic,(W) 78 - 75
 12/21,7:40p,Overland ,Game Details: Tarkanian Classic 2018 - @ Desert Oasis HS,(L) 72 - 40
 12/22,12:00p,Grant ,Game Details: Tarkanian Classic,(L) 94 - 73
-1/5,7:00p,Chaparral ,Location: Chaparral High School,
-1/11,7:00p,Denver West ,Location: Denver East High School,
-1/14,7:00p,Kennedy ,Location: Kennedy High School,
-1/17,7:00p,Denver South ,Game Details: DENVER EAST HIgH SCHOOL,
-1/19,TBA,Bryan ,Game Details: Nebraska Prep Classic,
-1/25,7:00p,Denver North ,Location: Denver North High School,
-1/29,7:00p,Lincoln ,Location: Denver East High School,
+1/5,7:00p,Chaparral ,Location: Chaparral High School,(L) 69 - 57
+1/11,7:00p,Denver West ,Location: Denver East High School,(W) 116 - 25
+1/14,7:00p,Kennedy ,Location: Kennedy High School,(W) 103 - 46
+1/17,7:00p,Denver South ,Game Details: DENVER EAST HIgH SCHOOL,(W) 89 - 31
+1/19,7:00p,Bryan ,Game Details: Nebraska Prep Classic,(L) 68 - 60
+1/25,7:00p,Denver North ,Location: Denver North High School,(W) 99 - 46
+1/29,7:00p,Lincoln ,Location: Denver East High School,(W) 96 - 70
 2/2,2:30p,Far Northeast Warriors ,Game Details: @Thunderdome,
 2/4,7:00p,Lakewood ,Location: Lakewood High School,
 2/8,7:00p,Thomas Jefferson ,Location: Thomas Jefferson High School,
 2/12,7:00p,Northfield ,Location: Denver East High School,
 2/16,2:30p,George Washington ,Game Details: Thunderdome - Manual High School,
-
+""
 Broomfield
 date,time,oponent,location,score
 12/1,6:00p,Longmont ,Location: Longmont High School,(L) 75 - 36
@@ -35,21 +35,21 @@ date,time,oponent,location,score
 12/20,4:15p,Hinkley ,Game Details: Mullen Christmas Classic,(W) 71 - 54
 12/21,8:00p,Chatfield ,,(L) 73 - 60
 12/22,5:30p,Fruita Monument ,,(L) 68 - 62
-1/4,6:30p,Horizon ,Location: Horizon High School,
-1/8,7:00p,Pomona ,Location: Pomona High School,
-1/11,6:30p,Rocky Mountain ,Location: Broomfield High School,
-1/15,6:30p,Fort Collins ,Location: Fort Collins High School,
-1/18,6:30p,Boulder ,Location: Broomfield High School,
-1/22,6:30p,Greeley West ,Location: Broomfield High School,
-1/24,7:00p,Mountain Range ,Location: Mountain Range High School,
-1/26,6:30p,Northglenn ,Game Details: Basketball Alumni Night,
-1/29,6:30p,Loveland ,Location: Loveland High School,
+1/4,6:30p,Horizon ,Location: Horizon High School,(W) 90 - 85 (2OT)
+1/8,7:00p,Pomona ,Location: Pomona High School,(W) 71 - 69 (OT)
+1/11,6:30p,Rocky Mountain ,Location: Broomfield High School,(W) 54 - 53
+1/15,6:30p,Fort Collins ,Location: Fort Collins High School,(W) 47 - 39
+1/18,6:30p,Boulder ,Location: Broomfield High School,(W) 58 - 57
+1/22,6:30p,Greeley West ,Location: Broomfield High School,(L) 62 - 56
+1/24,7:00p,Mountain Range ,Location: Mountain Range High School,(W) 61 - 36
+1/26,6:30p,Northglenn ,Game Details: Basketball Alumni Night,(W) 66 - 60
+1/29,6:30p,Loveland ,Location: Loveland High School,(L) 75 - 63
 2/1,6:30p,Fairview ,Location: Fairview High School,
 2/5,6:30p,Legacy ,Location: Legacy High School,
 2/8,6:30p,Fossil Ridge ,Location: Fossil Ridge High School,
 2/12,6:30p,Poudre ,Location: Broomfield High School,
 2/14,6:30p,Monarch ,Location: Broomfield High School,
-
+""
 Holy Family
 date,time,oponent,location,score
 11/29,5:30p,Sierra ,Game Details: D'Evelyn/Golden Preview Classic,(W) 69 - 50
@@ -59,71 +59,75 @@ date,time,oponent,location,score
 12/12,6:30p,Centaurus ,Location: Centaurus High School,(W) 46 - 43
 12/15,6:00p,Broomfield ,Game Details: The Gryphon Game,(W) 40 - 34
 12/21,4:00p,Pueblo West ,Game Details: at Holy Family HS,(L) 44 - 42
-1/3,7:00p,Frederick ,Location: Frederick High School,
-1/5,7:00p,Fort Morgan ,Location: Holy Family High School,
-1/8,7:00p,Roosevelt ,"Game Details: Roosevelt High School, Main Court 1",
-1/10,7:00p,Erie ,Location: Holy Family High School,
-1/15,7:00p,Berthoud ,Location: Berthoud High School,
-1/18,7:00p,Windsor ,Location: Holy Family High School,
-1/22,7:00p,Skyline ,Location: Skyline High School,
-1/24,7:00p,Mead ,Location: Holy Family High School,
-1/26,3:30p,Frederick ,Location: Holy Family High School,
-1/29,7:00p,Fort Morgan ,Location: Fort Morgan High School,
+1/3,7:00p,Frederick ,Location: Frederick High School,(W) 73 - 31
+1/5,7:00p,Fort Morgan ,Location: Holy Family High School,(W) 73 - 35
+1/8,7:00p,Roosevelt ,"Game Details: Roosevelt High School, Main Court 1",(W) 62 - 46
+1/10,7:00p,Erie ,Location: Holy Family High School,(W) 75 - 52
+1/15,7:00p,Berthoud ,Location: Berthoud High School,(W) 68 - 44
+1/18,7:00p,Windsor ,Location: Holy Family High School,(W) 58 - 48
+1/22,7:00p,Skyline ,Location: Skyline High School,(W) 49 - 30
+1/24,7:00p,Mead ,Location: Holy Family High School,(L) 50 - 45
+1/26,3:30p,Frederick ,Location: Holy Family High School,(W) 50 - 37
+1/29,7:00p,Fort Morgan ,Location: Fort Morgan High School,(W) 55 - 40
 1/31,7:00p,Roosevelt ,Game Details: Holy Family High School,
 2/2,7:00p,Erie ,Location: Erie High School,
 2/7,7:00p,Berthoud ,Location: Holy Family High School,
 2/9,6:30p,Windsor ,Location: Windsor High School,
 2/12,7:00p,Skyline ,Location: Holy Family High School,
 2/14,7:00p,Mead ,Location: Mead High School,
-
+""
 George Washington
 date,time,oponent,location,score
 11/26,7:00p,Smoky Hill ,"Game Details: George Washington - 655 S Monaco Pkwy, Denver, CO",(L) 78 - 64
 11/29,3:30p,Legacy ,"Game Details: Highlands Ranch High School, Main Gym",(W) 71 - 58
 11/30,5:30p,Mesa Ridge ,"Game Details: Highlands Ranch High School, Main Gym",(W) 84 - 44
-12/1,5:00p,Highlands Ranch ,"Game Details: Highlands Ranch High School, Main Gym",(L) 55 - 46
+12/1,5:00p,Highlands Ranch ,"Game Details: Highlands Ranch High School, Main Gym",(L) 55 - 48
 12/7,7:00p,Golden ,"Game Details: Golden High School- 701 24th St, Golden, CO 80401",(W) 78 - 71 (OT)
 12/13,7:00p,Regis Jesuit ,"Game Details: George Washington, Gym",(L) 64 - 63
 12/20,6:20p,Spring Valley ,Game Details: Tarkanian Classic Tournament,(L) 70 - 66
 12/21,12:00p,Dominguez ,"Game Details: Tarkanian Classic - Las Vegas, NV",(W) 58 - 49
-12/21,9:00p,Juan Diego Catholic ,Game Details: Tarkanian Classic,
+12/21,9:00p,Juan Diego Catholic ,Game Details: Tarkanian Classic,(L) 55 - 52
 12/22,10:20a,Mayfair ,"Game Details: Tarkanian Classic - Las Vegas, NV",(L) 69 - 58
-1/4,7:00p,ThunderRidge ,"Game Details: George Washington, Gym",
-1/7,7:00p,Douglas County ,"Game Details: Douglas County HS -2842 Front St, Castle Rock, CO",
-1/11,7:00p,Denver North ,"Game Details: George Washington - 655 S Monaco Pkwy, Denver, CO",
-1/15,7:00p,Lincoln ,"Game Details: Abraham Lincoln, Gym",
-1/17,7:00p,Standley Lake ,"Game Details: Standley Lake - 9300 W 104th Ave, Westminster, CO",
-1/19,2:30p,Far Northeast Warriors ,Game Details: @ Thunderdome,
-1/22,7:00p,Kennedy ,"Game Details: John F. Kennedy, Field",
-1/25,7:00p,Northfield ,"Game Details: George Washington - 655 S Monaco Pkwy, Denver, CO",
+1/5,7:00p,ThunderRidge ,"Game Details: George Washington, Gym",(L) 49 - 37
+1/7,7:00p,Douglas County ,"Game Details: Douglas County HS -2842 Front St, Castle Rock, CO",(L) 69 - 57
+1/11,7:00p,Denver North ,"Game Details: George Washington - 655 S Monaco Pkwy, Denver, CO",(W) 75 - 42
+1/15,7:00p,Lincoln ,"Game Details: Abraham Lincoln, Gym",(L) 60 - 58 (2OT)
+1/17,7:00p,Standley Lake ,"Game Details: Standley Lake - 9300 W 104th Ave, Westminster, CO",(L) 60 - 57
+1/19,2:30p,Far Northeast Warriors ,Game Details: @ Thunderdome,(W) 70 - 64
+1/22,7:00p,Kennedy ,"Game Details: John F. Kennedy, Field",(W) 87 - 70
+1/25,7:00p,Northfield ,"Game Details: George Washington - 655 S Monaco Pkwy, Denver, CO",(W) 64 - 56
 2/2,2:30p,Denver South ,Game Details: DENVER SOUTH HIGH SCHOOL,
 2/4,7:00p,Denver West ,"Game Details: George Washington, Gym",
 2/12,7:00p,Thomas Jefferson ,"Game Details: George Washington, Gym",
 2/14,7:00p,Valor Christian ,Location: George Washington High School,
 2/16,2:30p,Denver East ,Game Details: Thunderdome - Manual High School,
-
-Lake County
+""
+Rock Canyon
 date,time,oponent,location,score
-11/27,7:00p,Dolores Huerta Prep ,Location: Dolores Huerta Prep ,(L) 61 - 54
-12/4,6:00p,Fort Lupton ,,(L) 65 - 27
-12/7,12:30p,Prospect Ridge Academy ,,(L) 70 - 46
-12/8,11:00a,Elizabeth ,,(L) 47 - 42
-12/11,7:00p,Summit ,Game Details: SUMMIT HS,(L) 73 - 48
-12/15,4:00p,Gilpin County ,Location: Lake County High School,(W) 62 - 54
-12/18,5:00p,Crested Butte ,Location: Lake County High School,(W) 53 - 41
-1/10,7:00p,Custer County ,Location: Lake County High School,
-1/12,4:00p,Bennett ,Location: Bennett High School,
-1/14,5:00p,Middle Park ,Game Details: Lake County,
-1/16,7:00p,The Academy ,Location: The Academy ,
-1/19,4:00p,DSST: Stapleton ,Location: DSST: Stapleton High School,
-1/24,7:00p,Sheridan ,Location: Sheridan High School,
-1/26,4:00p,Jefferson ,"Game Details: Lake County High School, Gym",
-1/30,7:00p,The Pinnacle ,Location: The Pinnacle High School,
-2/2,4:00p,Arrupe Jesuit ,Location: Arrupe Jesuit High School,
-2/6,7:00p,KIPP Denver Collegiate ,Location: Lake County High School,
-2/9,4:00p,Bruce Randolph ,Game Details: Respect the Game Dinner,
-2/12,5:30p,Platte Canyon ,Location: Lake County High School,
-
+11/28,7:30p,Rampart ,,(W) 87 - 25
+11/30,7:30p,Rocky Mountain ,Game Details: @ Rock Canyon HS,(W) 50 - 43 (OT)
+12/1,3:30p,Mountain Vista ,,(L) 60 - 46
+12/6,7:00p,Dakota Ridge ,Location: Dakota Ridge High School,(W) 61 - 54
+12/8,2:00p,Grandview ,Game Details: ROCK CANYON HS,(W) 37 - 36
+12/12,7:00p,Bear Creek ,Location: Bear Creek High School,(W) 67 - 45
+12/14,6:30p,Monarch ,Location: Rock Canyon High School,(W) 64 - 40
+12/18,7:00p,Doherty ,Location: Rock Canyon High School,(W) 55 - 43
+12/20,1:00p,St. Thomas Aquinas ,Location: Rock Canyon High School,(L) 45 - 40
+12/21,4:15p,McArthur ,,(W) 65 - 52
+12/22,4:45p,Dwight ,,(W) 49 - 32
+1/3,7:00p,Pomona ,Location: Rock Canyon High School,(W) 69 - 57
+1/8,7:00p,Valor Christian ,Location: Valor Christian High School,(W) 57 - 49
+1/11,7:00p,ThunderRidge ,Location: Rock Canyon High School,(L) 34 - 31
+1/17,7:00p,Regis Jesuit ,Location: Rock Canyon High School,(L) 46 - 43
+1/23,7:00p,Ponderosa ,Location: Rock Canyon High School,(W) 55 - 35
+1/25,7:00p,Heritage ,Location: Rock Canyon High School,(W) 51 - 41
+1/29,7:00p,Castle View ,Location: Castle View High School,(W) 60 - 44
+1/31,7:00p,Chaparral ,Location: Rock Canyon High School,
+2/5,7:00p,Douglas County ,Location: Douglas County High School,
+2/8,7:00p,Legend ,Location: Rock Canyon High School,
+2/12,7:00p,Mountain Vista ,Location: Mountain Vista High School,
+2/15,7:00p,Highlands Ranch ,Game Details: HR Senior Night,
+""
 Smoky Hill
 date,time,oponent,location,score
 11/26,7:00p,George Washington ,"Game Details: George Washington - 655 S Monaco Pkwy, Denver, CO",(W) 78 - 64
@@ -135,44 +139,18 @@ date,time,oponent,location,score
 12/15,2:00p,Valor Christian ,Location: Smoky Hill High School,(W) 79 - 65
 12/19,7:00p,Regis Jesuit ,Location: Smoky Hill High School,(W) 67 - 65
 12/21,7:00p,Northglenn ,"Game Details: Northglenn High School, Main Gym",(W) 95 - 44
-1/3,7:00p,Cherokee Trail ,Location: Smoky Hill High School,
-1/5,TBA,Cherry Creek ,Location: Smoky Hill High School,
-1/9,7:00p,Grandview ,Game Details: GRANDVIEW MAIN GYM,
-1/12,TBA,Arapahoe ,Location: Arapahoe High School,
-1/16,7:00p,Overland ,Location: Smoky Hill High School,
-1/18,7:00p,Mullen ,"Game Details: Smoky Hill High School, West Gym",
-1/23,7:00p,Eaglecrest ,Location: Eaglecrest High School,
-1/26,2:30p,Cherokee Trail ,Location: Cherokee Trail High School,
-1/30,7:00p,Cherry Creek ,Location: Cherry Creek High School,
+1/3,7:00p,Cherokee Trail ,Location: Smoky Hill High School,(W) 67 - 52
+1/5,2:30p,Cherry Creek ,Location: Smoky Hill High School,(W) 84 - 65
+1/9,7:00p,Grandview ,Game Details: GRANDVIEW MAIN GYM,(L) 63 - 40
+1/12,2:30p,Arapahoe ,Location: Arapahoe High School,(W) 81 - 55
+1/16,7:00p,Overland ,Location: Smoky Hill High School,(W) 71 - 70
+1/18,7:00p,Mullen ,"Game Details: Smoky Hill High School, West Gym",(W) 67 - 55
+1/23,7:00p,Eaglecrest ,Location: Eaglecrest High School,(L) 82 - 80
+1/26,2:30p,Cherokee Trail ,Location: Cherokee Trail High School,(W) 87 - 73
+1/30,7:00p,Cherry Creek ,Location: Cherry Creek High School,(W) 75 - 62
 2/1,7:00p,Grandview ,Game Details: SMOKY HILL HS,
 2/6,7:00p,Arapahoe ,Location: Smoky Hill High School,
 2/9,2:30p,Overland ,Location: Overland High School,
 2/13,7:00p,Mullen ,"Game Details: J K Mullen High School, Hutchison Fieldhouse, Main",
 2/15,7:00p,Eaglecrest ,Location: Smoky Hill High School,
-
-Grandview
-date,time,oponent,location,score
-12/4,7:00p,Lincoln ,Game Details: GRANDVIEW MAIN GYM,(W) 69 - 54
-12/6,6:30p,Gateway ,Game Details: GATEWAY HS,(W) 74 - 45
-12/8,2:00p,Rock Canyon ,Game Details: ROCK CANYON HS,(L) 37 - 36
-12/13,7:00p,Rangeview ,Game Details: GRANDVIEW MAIN GYM,(W) 47 - 45
-12/15,6:00p,Doherty ,Game Details: At Wasson HS,(W) 47 - 43
-12/19,2:00p,Coronado ,"Game Details: ORLEANS ARENA, LAS VEGAS, TARKANIAN CLASSIC",(W) 69 - 63
-12/20,5:50p,Rancho Christian ,Game Details: Tarkanian Classic Las Vegas,(L) 63 - 55
-12/21,1:20p,Chino Hills ,"Game Details: Tarkanian Classic, Las Vegas, NV @Bishop Gorman HS",(L) 57 - 45
-12/22,2:40p,Whitney Young ,,(L) 60 - 52
-1/3,7:00p,Arapahoe ,Game Details: GRANDVIEW MAIN GYM,
-1/5,2:30p,Overland ,Game Details: OVERLAND HS,
-1/9,7:00p,Smoky Hill ,Game Details: GRANDVIEW MAIN GYM,
-1/12,2:30p,Cherry Creek ,Game Details: GRANDVIEW MAIN GYM,
-1/16,7:00p,Mullen ,Game Details: GRANDVIEW MAIN GYM,
-1/18,7:00p,Eaglecrest ,Game Details: GRANDVIEW MAIN GYM,
-1/23,7:00p,Cherokee Trail ,Game Details: CHEROKEE TRAIL HS,
-1/26,2:30p,Arapahoe ,Game Details: ARAPAHOE HS,
-1/30,7:00p,Overland ,Game Details: GRANDVIEW MAIN GYM,
-2/1,7:00p,Smoky Hill ,Game Details: SMOKY HILL HS,
-2/6,7:00p,Cherry Creek ,Game Details: CHERRY CREEK SOUTH GYM,
-2/9,3:00p,Mullen ,"Game Details: J K Mullen High School, Hutchison Fieldhouse, Main",
-2/13,TBA,Eaglecrest ,Game Details: EAGLECREST,
-2/15,7:00p,Cherokee Trail ,Game Details: GRANDVIEW MAIN GYM,
-
+""

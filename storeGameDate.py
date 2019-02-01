@@ -1,4 +1,5 @@
-#!/usr/bin/python
+#!/usr/bin/python3
+
 import sys
 import requests
 from bs4 import BeautifulSoup
@@ -126,6 +127,7 @@ for school in basketballSchools :
     gameList = sheduleContainer.find_all(class_='dual-contest')
 
     for game in gameList :
+        #print(game)
         extractGameData(game, school['teamid'])
 
     f.writerow([''])

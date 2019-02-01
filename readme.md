@@ -32,6 +32,7 @@ https://www.tutorialspoint.com/python/python_database_access.htm
         2. Play with Django
 
 # How to run
+- gameData.py - store the data into an .csv file
 I was able to run the progress from Visual Code
 
 cd /Users/marco/Developer/python/environments/dataScrape
@@ -41,5 +42,22 @@ python3 ./gameData.py
 
 I ran the script from VC
 deactivate
+
+- storeGameData.py
+. bin/activate
+
+// do not need to specify the version of python since the file sets it at the top
+python ./storeGameDate.py
 # MySql Connection 
 pip install mysql-connector-python
+
+
+mysql -u sports_admin -p
+foo_Bar$1
+
+show databases;
+use database {database name}
+
+show tables;
+select * from bball_games where teamID = 1;
+select opponent, score from bball_games where teamID = 1;
