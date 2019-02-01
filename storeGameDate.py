@@ -60,15 +60,20 @@ basketballSchools = [
     }
 ]
 
-# Create a file to write to, add headers row
-f = csv.writer(open('games.csv', 'w'))
-
+'''
+Gets the data contents for a html tag
+@param - html tag
+'''
 def getTagContents(tag) :
     if tag is not None :
         if len(tag) > 0 :
             #print(tag.contents[0])
             return tag.contents[0]
 
+'''
+Inserts a game row into the sports.bball_games table
+@param - game object to insert
+'''
 def insertIntoGames(gameObj) :
     cur = myConnection.cursor()
     
@@ -79,6 +84,10 @@ def insertIntoGames(gameObj) :
     cur.execute(add_game, gameObj)
     myConnection.commit()
 
+'''
+Scrape a game's data, create gameObj that is passed to insertIntoGames(gameObj)
+    to insert the game data into a sql table
+'''
 def extractGameData(game, teamid):
     #print(game.find(class_='event-date'))
 
@@ -94,7 +103,6 @@ def extractGameData(game, teamid):
     opponentTag = game.find(class_='contest-type-indicator')
     opponent = getTagContents(opponentTag)
 
-
     # contest-location
     gameLocation = game.find(class_='contest-location')
     location = getTagContents(gameLocation)
@@ -103,20 +111,19 @@ def extractGameData(game, teamid):
     gameScore = game.find(class_='score')
     score = getTagContents(gameScore)
 
-    f.writerow([gameDate, gameTime, opponent, location, score])
     # Need to do a sql insert 
     gameObj = (str(teamid), str(opponent), str(gameDate), str(gameTime), str(location), str(score))
     insertIntoGames(gameObj)
 
-    ##print("\n")
-   
-for school in basketballSchools : 
-    f.writerow([school['school']])
-    f.writerow(['date', 'time', 'oponent', 'location', 'score'])
+'''
+Gets the html for each of the games, passes html for each game to extractGameData(game, school['teamid'])
+    to extract the data
 
+'''
+for school in basketballSchools : 
     # asssign the result of a request 
     page = requests.get(school['url'])
-    print(page.status_code)
+    print(page.status_code, "for ", school['school'])
 
     # Create a BeautifulSoup object, or parse tree
     soup = BeautifulSoup(page.text, 'html.parser')
@@ -130,6 +137,5 @@ for school in basketballSchools :
         #print(game)
         extractGameData(game, school['teamid'])
 
-    f.writerow([''])
-
+# close the sql connection
 myConnection.close()

@@ -102,31 +102,27 @@ date,time,oponent,location,score
 2/14,7:00p,Valor Christian ,Location: George Washington High School,
 2/16,2:30p,Denver East ,Game Details: Thunderdome - Manual High School,
 ""
-Rock Canyon
+Lake County
 date,time,oponent,location,score
-11/28,7:30p,Rampart ,,(W) 87 - 25
-11/30,7:30p,Rocky Mountain ,Game Details: @ Rock Canyon HS,(W) 50 - 43 (OT)
-12/1,3:30p,Mountain Vista ,,(L) 60 - 46
-12/6,7:00p,Dakota Ridge ,Location: Dakota Ridge High School,(W) 61 - 54
-12/8,2:00p,Grandview ,Game Details: ROCK CANYON HS,(W) 37 - 36
-12/12,7:00p,Bear Creek ,Location: Bear Creek High School,(W) 67 - 45
-12/14,6:30p,Monarch ,Location: Rock Canyon High School,(W) 64 - 40
-12/18,7:00p,Doherty ,Location: Rock Canyon High School,(W) 55 - 43
-12/20,1:00p,St. Thomas Aquinas ,Location: Rock Canyon High School,(L) 45 - 40
-12/21,4:15p,McArthur ,,(W) 65 - 52
-12/22,4:45p,Dwight ,,(W) 49 - 32
-1/3,7:00p,Pomona ,Location: Rock Canyon High School,(W) 69 - 57
-1/8,7:00p,Valor Christian ,Location: Valor Christian High School,(W) 57 - 49
-1/11,7:00p,ThunderRidge ,Location: Rock Canyon High School,(L) 34 - 31
-1/17,7:00p,Regis Jesuit ,Location: Rock Canyon High School,(L) 46 - 43
-1/23,7:00p,Ponderosa ,Location: Rock Canyon High School,(W) 55 - 35
-1/25,7:00p,Heritage ,Location: Rock Canyon High School,(W) 51 - 41
-1/29,7:00p,Castle View ,Location: Castle View High School,(W) 60 - 44
-1/31,7:00p,Chaparral ,Location: Rock Canyon High School,
-2/5,7:00p,Douglas County ,Location: Douglas County High School,
-2/8,7:00p,Legend ,Location: Rock Canyon High School,
-2/12,7:00p,Mountain Vista ,Location: Mountain Vista High School,
-2/15,7:00p,Highlands Ranch ,Game Details: HR Senior Night,
+11/27,7:00p,Dolores Huerta Prep ,Location: Dolores Huerta Prep ,(L) 61 - 54
+12/4,6:00p,Fort Lupton ,,(L) 65 - 27
+12/7,12:30p,Prospect Ridge Academy ,,(L) 70 - 46
+12/8,11:00a,Elizabeth ,,(L) 47 - 42
+12/11,7:00p,Summit ,Game Details: SUMMIT HS,(L) 73 - 48
+12/15,4:00p,Gilpin County ,Location: Lake County High School,(W) 62 - 54
+12/18,5:00p,Crested Butte ,Location: Lake County High School,(W) 53 - 41
+1/10,7:00p,Custer County ,Location: Lake County High School,(W) 61 - 35
+1/12,4:00p,Bennett ,Location: Bennett High School,(L) 63 - 37
+1/14,5:30p,Middle Park ,Game Details: Lake County,(L) 76 - 53
+1/16,7:00p,The Academy ,Location: The Academy ,(L) 86 - 43
+1/19,4:00p,DSST: Stapleton ,Location: DSST: Stapleton High School,(L) 64 - 35
+1/24,7:00p,Sheridan ,Location: Sheridan High School,(L) 79 - 61
+1/26,4:00p,Jefferson ,"Game Details: Lake County High School, Gym",(L) 60 - 47
+1/30,7:00p,The Pinnacle ,Location: The Pinnacle High School,(W) 79 - 64
+2/2,4:00p,Arrupe Jesuit ,Location: Arrupe Jesuit High School,
+2/6,7:00p,KIPP Denver Collegiate ,Location: Lake County High School,
+2/9,4:00p,Bruce Randolph ,Game Details: Respect the Game Dinner,
+2/12,5:30p,Platte Canyon ,Location: Lake County High School,
 ""
 Smoky Hill
 date,time,oponent,location,score
@@ -153,4 +149,30 @@ date,time,oponent,location,score
 2/9,2:30p,Overland ,Location: Overland High School,
 2/13,7:00p,Mullen ,"Game Details: J K Mullen High School, Hutchison Fieldhouse, Main",
 2/15,7:00p,Eaglecrest ,Location: Smoky Hill High School,
+""
+Grandview
+date,time,oponent,location,score
+12/4,7:00p,Lincoln ,Game Details: GRANDVIEW MAIN GYM,(W) 69 - 54
+12/6,6:30p,Gateway ,Game Details: GATEWAY HS,(W) 74 - 45
+12/8,2:00p,Rock Canyon ,Game Details: ROCK CANYON HS,(L) 37 - 36
+12/13,7:00p,Rangeview ,Game Details: GRANDVIEW MAIN GYM,(W) 47 - 45
+12/15,6:00p,Doherty ,Game Details: At Wasson HS,(W) 47 - 43
+12/19,2:00p,Coronado ,"Game Details: ORLEANS ARENA, LAS VEGAS, TARKANIAN CLASSIC",(W) 69 - 63
+12/20,5:50p,Rancho Christian ,"Game Details: Tarkanian Classic, Las Vegas, NV @Bishop Gorman C1",(L) 63 - 55
+12/21,1:20p,Chino Hills ,"Game Details: Tarkanian Classic, Las Vegas, NV @Bishop Gorman C1",(L) 57 - 45
+12/22,2:40p,Whitney Young ,"Game Details: Tarkanian Classic, Las Vegas, NV @Bishop Gorman C2",(L) 60 - 52
+1/3,7:00p,Arapahoe ,Game Details: GRANDVIEW MAIN GYM,(W) 72 - 29
+1/5,2:30p,Overland ,Game Details: OVERLAND HS,(W) 47 - 45
+1/9,7:00p,Smoky Hill ,Game Details: GRANDVIEW MAIN GYM,(W) 63 - 40
+1/12,2:30p,Cherry Creek ,Game Details: GRANDVIEW MAIN GYM,(W) 73 - 47
+1/16,7:00p,Mullen ,Game Details: GRANDVIEW MAIN GYM,(W) 64 - 50
+1/18,7:00p,Eaglecrest ,Game Details: GRANDVIEW MAIN GYM,(W) 49 - 44
+1/23,7:00p,Cherokee Trail ,Game Details: CHEROKEE TRAIL HS,(W) 58 - 23
+1/26,2:30p,Arapahoe ,Game Details: ARAPAHOE HS,(W) 49 - 42
+1/30,7:00p,Overland ,Game Details: GRANDVIEW MAIN GYM,(L) 53 - 50
+2/1,7:00p,Smoky Hill ,Game Details: SMOKY HILL HS,
+2/6,7:00p,Cherry Creek ,Game Details: CHERRY CREEK SOUTH GYM,
+2/9,3:00p,Mullen ,"Game Details: J K Mullen High School, Hutchison Fieldhouse, Main",
+2/13,TBA,Eaglecrest ,Game Details: EAGLECREST,
+2/15,7:00p,Cherokee Trail ,Game Details: GRANDVIEW MAIN GYM,
 ""

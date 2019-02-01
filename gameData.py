@@ -5,7 +5,6 @@ import requests
 from bs4 import BeautifulSoup
 import csv
 
-#import BasketballSchool
 from BasketballSchool import BasketballSchool
 east = BasketballSchool('Denver East', 'http://www.maxpreps.com/high-schools/denver-east-angels-(denver,co)/basketball/schedule.htm')
 broomfield = BasketballSchool('Broomfield', 'http://www.maxpreps.com/high-schools/broomfield-eagles-(broomfield,co)/basketball/schedule.htm')
@@ -23,38 +22,6 @@ schools.append(georgeWashington)
 schools.append(lchs)
 schools.append(smokeyHill)
 schools.append(grandview)
-
-# url of page we will scrape
-basketballSchools = [
-    {
-        'school': 'Denver East',
-        'url':'http://www.maxpreps.com/high-schools/denver-east-angels-(denver,co)/basketball/schedule.htm'
-    },
-    {"INSERT INTO `sports`.`bball_teams` (`teamid`, `team_name`) VALUES (1, 'Denver East')"
-        'school': 'Broomfield',
-        'url':'http://www.maxpreps.com/high-schools/broomfield-eagles-(broomfield,co)/basketball/schedule.htm'
-    },
-    {
-        'school': 'Holy Family',
-        'url':'http://www.maxpreps.com/high-schools/holy-family-tigers-(broomfield,co)/basketball/schedule.htm'
-    },
-    {
-        'school': 'George Washington',
-        'url':'http://www.maxpreps.com/high-schools/george-washington-patriots-(denver,co)/basketball/schedule.htm'
-    },
-    {
-        'school': 'Lake County',
-        'url':'http://www.maxpreps.com/high-schools/lake-county-panthers-(leadville,co)/basketball/schedule.htm'
-    },
-    {
-        'school': 'Smoky Hill',
-        'url':'http://www.maxpreps.com/high-schools/smoky-hill-buffaloes-(aurora,co)/basketball/schedule.htm'
-    },
-    {
-        'school': 'Grandview',
-        'url': 'http://www.maxpreps.com/high-schools/grandview-wolves-(aurora,co)/basketball/schedule.htm'
-    }
-]
 
 # Create a file to write to, add headers row
 f = csv.writer(open('games.csv', 'w'))
@@ -99,8 +66,8 @@ for school in schools :
 
     # asssign the result of a request 
     page = requests.get(school.getSchoolUrl())
-    print('### --- ' + school.getSchoolName() + ' --- ###')
     print(page.status_code)
+    print(page.status_code, "for ", school.getSchoolName())
 
     # Create a BeautifulSoup object, or parse tree
     soup = BeautifulSoup(page.text, 'html.parser')
